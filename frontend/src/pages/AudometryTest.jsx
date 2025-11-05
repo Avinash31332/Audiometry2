@@ -476,9 +476,7 @@ export default function AudiometryTest() {
               className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-lg shadow mt-3"
               disabled={isLoading}
             >
-              {isLoading
-                ? "🔊 Loading Audio..."
-                : "🎥 Start Camera for Gestures"}
+              {isLoading ? "🔊 Loading Audio..." : "Start Camera for Gestures"}
             </button>
           )}
           <p className="mt-2 text-gray-700 h-6">Gesture: {gesture || "None"}</p>
